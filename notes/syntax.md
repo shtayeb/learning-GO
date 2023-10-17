@@ -235,11 +235,11 @@ func main(){
     birthday(&age)
     fmt.Prinln(age)
 }
-````
+```
 
 ## Functin Curiosity
 - `panic("Message!")` // It will close your app
-- `defer fmt.Println('bye')` // It will delay execution to the end. It uses stack data structure
+- `defer fmt.Println("bye")` // It will delay execution to the end. It uses stack data structure
 - `init()` //
 
 ## Errors Design Pattern
