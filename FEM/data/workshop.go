@@ -9,6 +9,10 @@ type Workshop struct {
 	Date time.Time
 }
 
+func (c Workshop) Signup() bool {
+	return true
+}
+
 func NewWorkshop(name string, instructor Instructor) Workshop {
 	w := Workshop{}
 	w.Name = name

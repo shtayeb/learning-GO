@@ -82,3 +82,24 @@ func main(){
     msg := u2.PrettyPrint()
 }
 ```
+
+> When embedding struct, we are embedding its methods as well
+
+
+## Interfaces
+It's just a list of methods that then wew can use as a type
+
+```go
+type PrettyPrinted interface {
+    PrettyPrint() string
+}
+
+func saveObject(object PrettyPrinted){
+    save(object.PrettyPrinted())
+}
+
+func main(){
+    u2 := User {2, "Frontend Masters"}
+    saveObject(u2)
+}
+```

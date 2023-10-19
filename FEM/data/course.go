@@ -5,12 +5,17 @@ import "fmt"
 type Duration float32 // in hours
 
 type Course struct {
-	Id         int
-	Name       string
-	Slug       string
-	Legacy     bool
-	Duration   Duration
+	Id       int
+	Name     string
+	Slug     string
+	Legacy   bool
+	Duration Duration
+	// This is called embedding
 	Instructor Instructor
+}
+
+func (c Course) Signup() bool {
+	return true
 }
 
 func (c Course) String() string {
