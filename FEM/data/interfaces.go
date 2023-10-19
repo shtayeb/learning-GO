@@ -1,5 +1,9 @@
 package data
 
+// WE can embed interfaces
 type Signable interface {
-	func Signup() bool
+	Signup() bool
+}
+
+type Any interface {
 }

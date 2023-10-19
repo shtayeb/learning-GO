@@ -103,3 +103,17 @@ func main(){
     saveObject(u2)
 }
 ```
+
+WE can embed interfaces
+
+Interface of any thing
+```go
+var things []interface{}
+
+things = append(things, "34")
+things = append(things, 1)
+things = append(things, true)
+
+// Casted to type Workshop
+things[2].(data.Workshop).Signup()
+```
