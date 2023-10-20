@@ -32,3 +32,12 @@ m2 <- "hello"
 message := <- m2
 ```
 
+
+> To Avoid deadlocks you have to close channels before endign the program with `close(chan)`
+
+> Using len("Hello") it return the no of bytes
+> Emojis have more that one byte
+> to get accurate length we use `strings.len()`
+
+## Json to GO
+online tools that converts json to go structure for us
