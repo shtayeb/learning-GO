@@ -4,6 +4,8 @@ It contains go notes and simple examples.
 
 > I will keep adding more GO learning materials
 
+## Resources
+- [Learn GO](https://blog.shahryartayeb.com/courses/learn/learning-go) Course on SHTB
 
 ## Roadmap
 
